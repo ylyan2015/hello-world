@@ -54,11 +54,12 @@
         </plugins>
     </build>
 
-    <modules>
-        <module>register</module>
-        <module>client1</module>
-        <module>configserver</module>
-        <module>configclient</module>
-    </modules>
+<!--    <modules>-->
+<!--        <module>register</module>-->
+<!--        <module>client1</module>-->
+<!--        <module>configserver</module>-->
+<!--        <module>configclient</module>-->
+<!--        <module>world-modules</module>-->
+<!--    </modules>-->
 
 </project>
