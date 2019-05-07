@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: configclient
+  cloud:
+    config:
+      label: master
+      profile: dev
+      uri: http://localhost:8888/
+server:
+  port: 5555
+management:  #actuator
+  server:
+    port: 12345
+  endpoints:
+    web:
+      base-path: /monitor #默认是/actuator 前缀，可以在这里修改
+      exposure:
+        #        include: "*"  #打开全部请求端点
+        include: refresh,health,info #打开部分
